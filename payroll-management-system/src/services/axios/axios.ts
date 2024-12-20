@@ -3,8 +3,8 @@ import axios, { AxiosError } from 'axios'
 
 // Create an Axios instance
 const api = axios.create({
-    baseURL: 'investationteam-4ze7.vercel.app
-', // Adjust this to your backend URL
+    baseURL: 'http://localhost:8000/api/v1'
+, // Adjust this to your backend URL
     timeout: 5000, // Set request timeout (in milliseconds)
     headers: {
         'Content-Type': 'application/json',
